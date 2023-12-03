@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Job World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+<div class="main-container">
+    <h1 class="title">JOBWORLD</h1>
+    <h4 class="subtitle">Search for the job you want </h4>
+
+  <div class="input-container">
+    <div class="country-container">
+      <label for="countryInput">Location</label><br>
+      <input type="text" id="countryInput" placeholder="Insert a location" required>
+  </div>
+  
+  <div class="jobs-container">
+      <label for="jobInput">Job</label><br>
+      <input type="text" id="jobInput" placeholder="Insert a job title" required>
+  </div>
+  
+</div>
+
+    
+  <button onclick="searchJobs()">Look for work</button>
+
+  <div id="results"></div>
+  
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

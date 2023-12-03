@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input-container {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 500;
+    text-shadow: 0 2px 0 #000000, 2px 6px 6px #4b4c4d;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0 30px 0;
+    color: grey;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input {
+    font-size: 15px;
+    margin-top: 10px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 12px;
+    text-align: center;
+}
+
+button{
+    margin: 30px 0 0 0;
+    width: 130px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color:#2557A7;
+    box-shadow: 0 2px 0 #002654, 2px 4px 6px #002654;
+
+}
+
+button:hover {
+    background-color: #1a3a6e;
+}
+
+
+#results {
+    max-height: 50vh; /* 결과값이 화면의 60% 이상 차지하지 않도록 설정 (조절 가능) */
+    overflow-y: auto; /* 세로 스크롤 활성화 */
+    margin-top: 20px; /* 조절 가능한 여백 */
+    padding: 10px; /* 결과값과 주변과의 간격을 늘리기 위한 패딩 */
+    font-size: 15px;
+}
+
+  .job-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .job-table th, .job-table td {
+    border: 1px solid rgb(160, 160, 160);
+    text-align: left;
+    padding: 9px;
+  }
